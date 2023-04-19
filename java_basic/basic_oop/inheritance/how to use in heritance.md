@@ -80,7 +80,8 @@ public class VIPCustomer extends Customer{
 	}
 }
 ```
-![customer](./img/customerdiagram.png)
+![3126647](https://user-images.githubusercontent.com/68278903/232959068-0ab45d72-88bc-4e0b-98ec-958f45d717ba.png)
+
 
 ### 4. protected 접근 제어자
 
