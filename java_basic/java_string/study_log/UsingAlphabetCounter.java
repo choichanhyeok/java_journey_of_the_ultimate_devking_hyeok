@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 
 public class UsingAlphabetCounter {
-
     private static int[] getCountArray(String str){
         int[] countArray = new int[26];
         for (int i = 0; i < str.length(); i ++){
@@ -33,3 +32,5 @@ public class UsingAlphabetCounter {
         System.out.println(getDifferenceEachCntArray(cntA, cntB));
     }
 }
+
+// 2023-04-19 review
