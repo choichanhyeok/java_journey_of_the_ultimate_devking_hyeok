@@ -72,3 +72,9 @@ public class SearchDoc {
         System.out.println(findWordUsingReplace(str, target));
     }
 }
+
+
+
+
+
+  
