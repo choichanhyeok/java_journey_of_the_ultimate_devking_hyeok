@@ -19,9 +19,10 @@ public class SaltBoomer {
     }
 
     /**
-     * 각 시간의 차이 구하기
-     * 
-     * 
+     * 각 시간, 분, 초의 차이 구하기
+     * @param currentTimeArray
+     * @param targetTimeArray
+     * @return
      */
     public static int[] getDifferenceEachTime(int[] currentTimeArray, int[] targetTimeArray){
         int totalCurrentTiemAmount = (currentTimeArray[0] * 3600) + (currentTimeArray[1] * 60) + (currentTimeArray[2]);
