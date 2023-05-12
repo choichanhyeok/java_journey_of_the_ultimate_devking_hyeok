@@ -17,16 +17,20 @@ public class SortAscDesc {
         printArray(numberArrayAsc);
 
         // TODO 2-2. 역순 정렬 후 출력
-        Integer[] numberArrayDesc = Arrays.stream(numberArray).boxed().toArray(Integer[]::new); // 방법1
-        Arrays.sort(numberArrayDesc, Collections.reverseOrder()); 
+
+        Integer[] numberArrayDesc = Arrays.stream(numberArray).boxed().toArray(Integer[]::new);
+        Arrays.sort(numberArrayDesc, Collections.reverseOrder());
+
+        // Integer[] numberArrayDesc = Arrays.stream(numberArray).boxed().toArray(Integer[]::new); // 방법 1.
+        // Arrays.sort(numberArrayDesc, Collections.reverseOrder()); 
 
         for (Integer number: numberArrayDesc){
-            System.out.print(numberArrayDesc[i] + " ");
+            System.out.print(number + " ");
         }
         System.out.println();
 
         // List<Integer> numberArrayDescAsInteger = Arrays.stream(numberArray).boxed().collect(Collectors.toList());
-        // Collections.sort(numberArrayDescAsInteger, Collections.reverseOrder()); // 방법2
+        // Collections.sort(numberArrayDescAsInteger, Collections.reverseOrder()); // 방법 2.
     }
 
     private static void printArray(int[] numberArray){
