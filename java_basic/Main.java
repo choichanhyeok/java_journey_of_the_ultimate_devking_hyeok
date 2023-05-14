@@ -7,6 +7,8 @@ import study_log.SearchDoc;
 import study_log.SaltBoomer;
 import solve.SortAscDesc;
 import study_log.reprac.BigSmallChange;
+import study_log.reprac.LetsMakeAnagram;
+import study_log.reprac.StudyWord;
 
 public class Main{
     public static void main(String[] hyeok){
@@ -17,7 +19,9 @@ public class Main{
         // SearchDoc.solve1543();
         // SaltBoomer.solved13223();
         // SortAscDesc.sortAscDescSolve();
-        BigSmallChange.solve2744();
+        // BigSmallChange.solve2744();
+        // LetsMakeAnagram.solve();
+        StudyWord.solved1557();
     }
 }
 

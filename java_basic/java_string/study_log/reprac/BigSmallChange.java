@@ -1,7 +1,14 @@
 package study_log.reprac;
 import java.util.Scanner;
 
+/**
+ * 백준 2744번: 대소문자 바꾸기
+ */
 public class BigSmallChange{
+    /**
+     * 입력받은 문자열의 대소문자를 반전 시키는 메서드
+     * @param sentence
+     */
     public static void bigSmall(char[] sentence){
         for (int i = 0; i < sentence.length; i ++){
             if(isBig(sentence[i])){
@@ -15,6 +22,7 @@ public class BigSmallChange{
     public static boolean isBig(char alphabet){
         return 'A' <= alphabet && alphabet <= 'Z' ? true : false;
     }
+
     public static void solve2744(){
         Scanner sc = new Scanner(System.in);
         
