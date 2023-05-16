@@ -9,7 +9,8 @@ import solve.SortAscDesc;
 import study_log.reprac.BigSmallChange;
 import study_log.reprac.LetsMakeAnagram;
 import study_log.reprac.StudyWord;
-import study_log.reprac.SearchDocs;;
+import study_log.reprac.SearchDocs;
+import study_log.*;
 
 public class Main{
     public static void main(String[] hyeok){
@@ -23,7 +24,8 @@ public class Main{
         // BigSmallChange.solve2744();
         // LetsMakeAnagram.solve();
         // StudyWord.solved1557();
-        SearchDocs.solved1543();
+        // SearchDocs.solved1543();
+        AlphabetAndSentence.solved27866();
     }
 }
 
