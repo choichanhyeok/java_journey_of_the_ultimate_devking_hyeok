@@ -1,16 +1,6 @@
-import study_log.WhatDifferencesCharArrayAndString;
-import study_log.UsingAlphabetCounter;
-import study_log.AlphabetCount;
-import study_log.SaltBoomer;
-import study_log.reprac.AlphabetCount2;
-import study_log.SearchDoc;
-import study_log.SaltBoomer;
+import java_string.study_log.*;
 import solve.SortAscDesc;
-import study_log.reprac.BigSmallChange;
-import study_log.reprac.LetsMakeAnagram;
-import study_log.reprac.StudyWord;
-import study_log.reprac.SearchDocs;
-import study_log.*;
+
 
 public class Main{
     public static void main(String[] hyeok){

@@ -1,4 +1,4 @@
-package study_log.reprac;
+package java_string.study_log.reprac;
 import java.util.Scanner;
 
 public class SearchDocs {

@@ -1,4 +1,4 @@
-package study_log;
+package java_string.study_log;
 import java.util.Scanner;
 
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
