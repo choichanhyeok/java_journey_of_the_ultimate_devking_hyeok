@@ -1,6 +1,6 @@
 import java_string.study_log.*;
 import solve.SortAscDesc;
-
+import exception.*;
 
 public class Main{
     public static void main(String[] hyeok){
@@ -15,7 +15,8 @@ public class Main{
         // LetsMakeAnagram.solve();
         // StudyWord.solved1557();
         // SearchDocs.solved1543();
-        AlphabetAndSentence.solved27866();
+//        AlphabetAndSentence.solved27866();
+        ExceptionTest1.exceptionTest1();
     }
 }
 
